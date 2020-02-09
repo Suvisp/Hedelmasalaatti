@@ -1,0 +1,54 @@
+body {
+    background-image: url("jungle_fruit_sallad.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    background-size: 650px 740px;
+    background-color: rgba(61, 136, 170, 0.3);
+  }
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    font-family: Georgia;
+    font-size: 15px;
+  }
+
+p.eka {
+    font-family: Georgia;
+    font-size: 20px;
+  }
+
+p.toka {
+    font-family: Georgia;
+    font-size: 15px;
+  }
+
+h1 {
+    font-size: 50px;
+    }
+
+h2 {
+    font-size: 30px;
+    color:rgba(3, 66, 94, 0.3);
+    }
+
+input {
+    font-family: Georgia;
+    font-size: 15px;
+    text-align: center;
+      }
+      
+.output {
+    font-family: Georgia;
+    font-size: 15px;
+    }
+
+button {
+    font-family: Georgia;
+    font-size: 15px;
+}
+
+.kuva {
+    position: fixed;
+}

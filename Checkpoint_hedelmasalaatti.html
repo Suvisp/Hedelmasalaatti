@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hedelmäsalaatti</title>
+
+    <link rel="stylesheet" href="checkpoint_hedelmasalaatti_muotoilu.css" />
+
+</head>
+
+<body>
+
+    <section>
+        <h1>Hedelmäsalaatti</h1>
+        <h2>Ostoslista</h2>
+        <p class="eka">Näppärä laskuri budjetointia varten:</p>
+
+        <p class="toka">
+            <label for="hedelma">Syötä hedelmä</label>
+            <br>
+            <input id="hedelma" type="text" />
+            <br>
+            <br>
+            <label for="hinta">Syötä hinta / EUR</label>
+            <br>
+            <input id="hinta" type="number" />
+            <br>
+            <br>
+            <button id="nappi" type="button" onclick="addRow()">Lisää tuote</button>
+        </p>
+        <table class="center">
+            <tbody id="taulu"></tbody>
+        </table>
+    </section>
+
+    <br>
+
+    <section>
+        <button id="nappi" type="button" onclick="etsiKallein()">Näytä kallein tuote</button>
+        <br>
+        <br>
+        <div class="output" name="outputKallein" id="outputKallein"></div>
+        <br>
+        <button id="nappi" type="button" onclick="etsiHalvin()">Näytä edullisin tuote</button>
+        <br>
+        <br>
+        <div class="output" name="outputHalvin" id="outputHalvin"></div>
+        </section">
+
+        <script src="./Checkpoint_hedelmasalaatti.js">
+
+        </script>
+
+</body>
+
+</html>
